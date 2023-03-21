@@ -44,7 +44,7 @@ const uint8_t SMILEY_FACE[8] = {
 };
 
 const char* ssid = "NETGEAR04";
-const char* password = "icypiano224";
+const char* password = "password";
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 1 * 60 * 60, 60000);
